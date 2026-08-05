@@ -416,6 +416,17 @@ RESPONSIVE
     font-weight: bold;
     z-index: 999;
     box-shadow: 0 5px 15px rgba(0,0,0,.3);
+}.call-btn{
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    background:#007bff;
+    color:#fff;
+    padding:12px 18px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    z-index:9999;
 }
 
 }
