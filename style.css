@@ -403,31 +403,19 @@ RESPONSIVE
 .btn2{
     display:block;
     margin:15px auto 0;
-}.call-btn{
-    position: fixed;
-    bottom: 80px;
-    right: 20px;
-    background:#007bff;
-    color:white;
-    padding:14px 20px;
-    border-radius:50px;
-    text-decoration:none;
-    font-size:18px;
-    font-weight:bold;
-    box-shadow:0 4px 10px rgba(0,0,0,.3);
-    z-index:999;
 }.whatsapp-btn{
     position: fixed;
-    bottom: 170px;
+    bottom: 90px;
     right: 20px;
     background: #25D366;
     color: white;
     padding: 15px 25px;
     border-radius: 50px;
     text-decoration: none;
+    font-size: 20px;
     font-weight: bold;
-    z-index: 9999;
-    display: inline-block;
+    z-index: 999;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
 }
 
 }
