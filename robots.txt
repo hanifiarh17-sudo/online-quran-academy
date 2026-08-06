@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://splendorous-caramel-631b07.netlify.app/sitemap.xml
