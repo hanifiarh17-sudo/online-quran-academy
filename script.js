@@ -196,6 +196,9 @@ footerText.innerHTML =
 // ===============================
 
 console.log("Al Suffah Quran Academy Website Loaded Successfully.");
+
+let lang = "en";
+
 const translations = {
   en: {
     title: "Learn Quran Online With Certified Teachers",
@@ -207,11 +210,9 @@ const translations = {
   }
 };
 
-let lang = "en";
-
 function changeLanguage() {
-  lang = lang === "en" ? "ur" : "en";
+  lang = (lang === "en") ? "ur" : "en";
 
-  document.querySelector(".hero h1").innerText = translations[lang].title;
-  document.querySelector(".hero p").innerText = translations[lang].text;
+  document.getElementById("hero-title").innerText = translations[lang].title;
+  document.getElementById("hero-text").innerText = translations[lang].text;
 }
