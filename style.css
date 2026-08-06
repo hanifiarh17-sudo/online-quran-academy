@@ -441,6 +441,48 @@ RESPONSIVE
   font-weight:600;
 }.lang-btn:hover{
   background:#09572f;
+}.whatsapp-btn{
+    position:fixed;
+    bottom:90px;
+    right:20px;
+    background:#25D366;
+    color:#fff;
+    padding:15px 25px;
+    border-radius:50px;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    z-index:999;
+}
+
+.call-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#007bff;
+    color:#fff;
+    padding:12px 18px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    z-index:999;
+}
+
+.lang-switch{
+    position:fixed;
+    top:90px;
+    right:20px;
+    z-index:999;
+}
+
+.lang-btn{
+    background:#0b6b53;
+    color:#fff;
+    border:none;
+    padding:10px 15px;
+    border-radius:30px;
+    cursor:pointer;
+    font-weight:bold;
 }
 
 }
