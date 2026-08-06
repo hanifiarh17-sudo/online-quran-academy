@@ -196,3 +196,22 @@ footerText.innerHTML =
 // ===============================
 
 console.log("Al Suffah Quran Academy Website Loaded Successfully.");
+const translations = {
+  en: {
+    title: "Learn Quran Online With Certified Teachers",
+    text: "Join thousands of students worldwide. Learn Quran with Tajweed, Hifz, Tafseer and Islamic Studies from experienced tutors."
+  },
+  ur: {
+    title: "مستند اساتذہ کے ساتھ آن لائن قرآن سیکھیں",
+    text: "دنیا بھر کے طلبہ کے ساتھ تجوید، حفظ، تفسیر اور اسلامیات کی آن لائن تعلیم حاصل کریں۔"
+  }
+};
+
+let lang = "en";
+
+function changeLanguage() {
+  lang = lang === "en" ? "ur" : "en";
+
+  document.querySelector(".hero h1").innerText = translations[lang].title;
+  document.querySelector(".hero p").innerText = translations[lang].text;
+}
