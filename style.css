@@ -427,6 +427,20 @@ RESPONSIVE
     text-decoration:none;
     font-weight:bold;
     z-index:9999;
+}.lang-switch{
+  text-align:center;
+  margin:15px 0;
+}.lang-btn{
+  background:#0b6b3a;
+  color:#fff;
+  border:none;
+  padding:10px 18px;
+  margin:0 5px;
+  border-radius:25px;
+  cursor:pointer;
+  font-weight:600;
+}.lang-btn:hover{
+  background:#09572f;
 }
 
 }
